@@ -1,5 +1,4 @@
- 
-Write a shell script to input a number and display its factorial.
+14. Write a shell script to input a number and display its factorial.
 
 file2.sh
 #!/bin/bash
