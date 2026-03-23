@@ -15,8 +15,8 @@ do
 done
 echo
 
-mca@MCA11:~/mca/Theja/network$ chmod +x file2.sh
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ chmod +x file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Enter number of terms: 6
 Fibonacci Series:
 0 1 1 2 3 5 
