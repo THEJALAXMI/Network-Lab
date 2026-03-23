@@ -1,5 +1,4 @@
-
-Write a shell script to check whether a given number is even or odd
+8. Write a shell script to check whether a given number is even or odd
 
 file2.sh
 #!/bin/bash
