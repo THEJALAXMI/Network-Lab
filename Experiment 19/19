@@ -1,0 +1,15 @@
+19. Write a shell script that accepts two numbers, and compares them and does the following: add them if the first one is smaller than the second, multiply them if the first one is greater than the second and do nothing if they are equal.
+
+mca@MCA11:~/Desktop/Theja/Experiment 19$ chmod +x compare.sh
+mca@MCA11:~/Desktop/Theja/Experiment 19$ ./compare.sh
+Enter first number: 12
+Enter second number: 5
+12 is greater than 5
+Multiplication = 60
+mca@MCA11:~/Desktop/Theja/Experiment 19$ ./compare.sh
+Enter first number: 5
+Enter second number: 12
+5 is smaller than 12
+Sum = 17
+
+

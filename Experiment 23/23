@@ -1,0 +1,16 @@
+23. Write a menu-driven shell program to find the sum of the digits of a number and the reverse of the number. 
+
+mca@MCA11:~/Desktop/Theja/Experiment 23$ chmod +x menu.sh
+mca@MCA11:~/Desktop/Theja/Experiment 23$ ./menu.sh
+Enter a number: 2345
+1. Sum of digits
+2. Reverse of number
+Enter your choice:1
+Sum of digits = 14
+mca@MCA11:~/Desktop/Theja/Experiment 23$ ./menu.sh
+Enter a number: 2345
+1. Sum of digits
+2. Reverse of number
+Enter your choice:2
+Reverse = 5432
+

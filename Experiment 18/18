@@ -1,0 +1,6 @@
+18. Write a shell script using a while loop to read a number from the user and print numbers from 1 up to that number. 
+
+mca@MCA11:~/Desktop/Theja/Experiment 18$ chmod +x while.sh
+mca@MCA11:~/Desktop/Theja/Experiment 18$ ./while.sh
+Enter a number: 10
+1 2 3 4 5 6 7 8 9 10 

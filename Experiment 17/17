@@ -1,0 +1,10 @@
+17. Write a shell program to Calculate the gross salary of the employee where his DA is 40%   of basic salary and HRA is 20% of basic salary. Get basic salary as user input. 
+
+mca@MCA11:~/Desktop/Theja/Experiment 17$ chmod +x salary.sh
+mca@MCA11:~/Desktop/Theja/Experiment 17$ ./salary.sh
+Enter basic salary: 20000
+Basic Salary = 20000
+DA = 8000
+HRA = 4000
+Gross Salary = 32000
+

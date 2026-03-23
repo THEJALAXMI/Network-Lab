@@ -1,0 +1,11 @@
+16. Write a shell Program to interchange two Numbers
+
+mca@MCA11:~/Theja$ chmod +x file.sh
+mca@MCA11:~/Theja$ ./file.sh
+Enter a: 5
+Enter b: 7
+After interchange:
+First number = 7
+Second number = 5
+mca@MCA11:~/Theja$ 
+

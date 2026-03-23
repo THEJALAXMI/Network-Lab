@@ -1,0 +1,20 @@
+22.  Write a bash shell script to perform arithmetic operations (addition, subtraction,) using case 
+
+mca@MCA11:~/Desktop/Theja/Experiment 22$ chmod +x arithmetic.sh
+mca@MCA11:~/Desktop/Theja/Experiment 22$ ./arithmetic.sh
+Enter first number: 20
+Enter second number: 10
+Select operation:
+1. Addition
+2. Subtraction
+Enter option: 1
+Addition = 30
+mca@MCA11:~/Desktop/Theja/Experiment 22$ ./arithmetic.sh
+Enter first number: 20
+Enter second number: 10
+Select operation:
+1. Addition
+2. Subtraction
+Enter option: 2
+Subtraction = 10
+

@@ -1,0 +1,10 @@
+21. Write a shell script to check whether the given number is a palindrome or not.
+
+mca@MCA11:~/Desktop/Theja/Experiment 21$ chmod +x palindrome.sh
+mca@MCA11:~/Desktop/Theja/Experiment 21$ ./palindrome.sh
+Enter a number:121
+Palindrome number
+mca@MCA11:~/Desktop/Theja/Experiment 21$ ./palindrome.sh
+Enter a number:123
+Not a palindrome
+

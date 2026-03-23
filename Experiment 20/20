@@ -1,0 +1,7 @@
+20. Write a shell program to reverse the digits of a five-digit integer.
+
+mca@MCA11:~/Desktop/Theja/Experiment 20$ chmod +x reverse.sh
+mca@MCA11:~/Desktop/Theja/Experiment 20$ ./reverse.sh
+Enter a five digit number: 45678
+Reversed number = 87654
+
