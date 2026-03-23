@@ -2,14 +2,14 @@
 
 2) Saving and Exiting
 
-mca@MCA11:~/mca/Theja/Network$ vi file.sh
+mca@MCA11:~/Desktop/Theja/Network$ vi file.sh
 Linux is an open source operating system.
 Vi editor is used to edit files in Linux.
 :wq
 
 3) Viewing the File After Saving
 
-mca@MCA11:~/mca/Theja/Network$ cat file.sh
+mca@MCA11:~/Desktop/Theja/Network$ cat file.sh
 Linux is an open source operating system.
 Vi editor is used to edit files in Linux.
 
@@ -71,7 +71,7 @@ Vi editor is used to edit files in Unix.
 
 6) Emacs Editor (Terminal-Based Text Editor)
 
-mca@MCA11:~/mca/Theja/Network$ sudo snap install emacs
+mca@MCA11:~/Desktop/Theja/Network$ sudo snap install emacs
 [sudo] password for mca: 
 error: This revision of snap "emacs" was published using classic confinement
        and thus may perform arbitrary system changes outside of the security
