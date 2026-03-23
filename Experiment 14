@@ -10,8 +10,8 @@ do
 done
 echo "Factorial of $n is $fact"
 
-mca@MCA11:~/mca/Theja/network$ chmod +x file2.sh
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ chmod +x file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Enter a number: 4
 Factorial of 4 is 24
 
