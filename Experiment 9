@@ -1,5 +1,5 @@
+9. Write a shell script to input three numbers and display the largest number
 
-Write a shell script to input three numbers and display the largest number
 file2.sh
 #!/bin/bash
 echo "Enter three numbers:"
