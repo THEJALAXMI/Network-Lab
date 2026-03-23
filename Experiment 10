@@ -14,8 +14,8 @@ else
 fi  
  
  
-mca@MCA11:~/mca/Theja/network$ chmod +x file2.sh
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ chmod +x file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Enter a year: 2003
 2003 is not a leap year
 
