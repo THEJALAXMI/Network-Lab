@@ -1,11 +1,11 @@
 
-mca@MCA11:~$ cd mca
-mca@MCA11:~/mca$ cd Theja
-mca@MCA11:~/mca/Theja$ cd network
+mca@MCA11:~$ cd Desktop
+mca@MCA11:~/Desktop$ cd Theja
+mca@MCA11:~/Desktop/Theja$ cd network
 
 1. Bash Syntax
 Create the script file:
-mca@MCA11:~/mca/Theja/network$ vi file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ vi file2.sh
 
 2. 
 a)Add script content:
@@ -14,9 +14,9 @@ a)Add script content:
 echo "Hello World"ch
 
 Make the script executable:
-mca@MCA11:~/mca/Theja/network$ chmod +x file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ chmod +x file2.sh
 Run the script
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Hello World
 
 b)Script with Multiple echo Statements
@@ -24,7 +24,7 @@ b)Script with Multiple echo Statements
 echo "Line 1: Starting the script"
 echo "Line 2: This is Bash scripting"
 echo "Line 3: Script complete"
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Line 1: Starting the script
 Line 2: This is Bash scripting
 Line 3: Script complete
@@ -37,7 +37,7 @@ echo "Current User   : $USER"
 echo "Current Shell  : $SHELL"
 echo "Working Dir    : $PWD"
 
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Home Directory : /home/mca
 Current User   : mca
 Current Shell  : /bin/bash
@@ -46,13 +46,13 @@ Working Dir    : /home/mca/mca/Theja/network
 4.Shell Variables
 a)Creating and Running a Bash Script
 ->Create a script file
-mca@MCA11:~/mca/Theja/network$ vi file3.sh
+mca@MCA11:~/Desktop/Theja/Network$ vi file3.sh
 ->Write the code
 #!/bin/bash
 str="Theja"
 echo "Hello $str"
 ->Make the script executable
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Hello Theja
 b)Using Numeric Variables
 #!/bin/bash
@@ -61,7 +61,7 @@ b=20
 sum=$((a + b))
 echo "Sum of $a and $b is: $sum"
 
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Sum of 10 and 20 is: 30
 
 5. Control Constructs
@@ -71,7 +71,7 @@ num=10
 if [ $num -gt 0 ]; then
 echo "$num is a positive number"
 fi
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 10 is a positive number
 
 b)If–Else Statement-To check whether a given number is greater than 5
@@ -82,7 +82,7 @@ if [ $num -gt 5 ]; then
 else
      echo "Less than or equal to 5"
 fi
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Less than or equal to 5
 c)Check even or odd
 #!/bin/bash
@@ -94,7 +94,7 @@ else
     echo "$num is Odd"
 fi
 
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 7 is Odd
 d)
 if-elif-else Statement
@@ -121,7 +121,7 @@ for i in 1 2 3 4 5
 do
    echo "Number is $i"
 done
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Number is 1
 Number is 2
 Number is 3
@@ -135,7 +135,7 @@ for (( i=1; i<=n; i++ ))
 do
    echo $i
 done
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 1
 2
 3
@@ -149,7 +149,7 @@ for (( i=1; i<=n; i++ ))
 do
    echo -n "$i "
 done
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 1 2 3 4 5
 
 f)While Loop
@@ -161,7 +161,7 @@ do
     ((i++))
 done
 
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 number is 1
 number is 2
 number is 3
@@ -178,7 +178,7 @@ do
    ((i++))
 done
 
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 1 2 3 4 5
 
 6.Functions in Shell Scripts
@@ -189,7 +189,7 @@ echo "Welcome to Linux"
 }
 hello
 
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Welcome to Linux
 
 Basic Add & Subtract
@@ -207,7 +207,7 @@ subtract() {
 add 20 10
 subtract 20 10
 
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Addition of 20 + 10 = 30
 Subtraction of 20 - 10 = 10
 
@@ -217,7 +217,7 @@ echo "Script name: $0"
 echo "First argument: $1"
 echo "Second argument: $2"
 
-mca@MCA11:~/mca/Theja/network$ ./file2.sh Hello Linux
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh Hello Linux
 Script name: ./file2.sh
 First argument: Hello
 Second argument: Linux
