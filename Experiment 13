@@ -10,8 +10,8 @@ do
 done
 echo "Sum of first $n natural numbers is $sum"
 
-mca@MCA11:~/mca/Theja/network$ chmod +x file2.sh
-mca@MCA11:~/mca/Theja/network$ ./file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ chmod +x file2.sh
+mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Enter n: 6
 Sum of first 6 natural numbers is 21
 
