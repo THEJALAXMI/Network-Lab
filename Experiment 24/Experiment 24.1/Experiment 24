@@ -1,0 +1,19 @@
+i.Right Triangle Star Pattern
+  *
+  * *
+  * * *
+  * * * *
+  
+mca@MCA11:~/Desktop/Theja/Networks/Experiment 24.1$ chmod +x rightangle.sh
+mca@MCA11:~/Desktop/Theja/Networks/Experiment 24.1$ ./rightangle.sh
+Enter number of rows:
+5
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+
+
+
