@@ -1,8 +1,0 @@
-1)Add two numbers using function
-
-mca@MCA11:~/Desktop/Theja/Networks/Experiment 25.1$ chmod +x sum.sh
-mca@MCA11:~/Desktop/Theja/Networks/Experiment 25.1$ ./sum.sh
-Enter two numbers: 10 6
-Sum = 16
-
-
