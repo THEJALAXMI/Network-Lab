@@ -1,0 +1,11 @@
+2)Check Even or Odd using Function
+
+mca@MCA11:~/Desktop/Theja/Networks/Experiment 25.2$ chmod +x EvenOdd.sh
+mca@MCA11:~/Desktop/Theja/Networks/Experiment 25.2$ ./EvenOdd.sh
+Enter a number: 10
+10 is Even
+mca@MCA11:~/Desktop/Theja/Networks/Experiment 25.2$ ./EvenOdd.sh
+Enter a number: 11
+11 is Odd
+
+

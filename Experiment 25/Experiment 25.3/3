@@ -1,0 +1,8 @@
+3)Factorial using Function
+
+mca@MCA11:~/Desktop/Theja/Networks/Experiment 25.3$ chmod +x Factorial.sh
+mca@MCA11:~/Desktop/Theja/Networks/Experiment 25.3$ ./Factorial.sh
+Enter a number: 10
+Factorial = 3628800
+
+
