@@ -41,7 +41,7 @@ mca@MCA11:~/Desktop/Theja/Network$ ./file2.sh
 Home Directory : /home/mca
 Current User   : mca
 Current Shell  : /bin/bash
-Working Dir    : /home/mca/mca/Theja/network
+Working Dir    : /Desktop/Theja/network
 
 4.Shell Variables
 a)Creating and Running a Bash Script
